@@ -1,0 +1,60 @@
+/*fonts*/
+h1, h2, h3, h4, h5, h6{
+	color: #E80D4A;
+}
+
+p {
+	color: #4E0AFF;
+}
+div.no-margin p{
+	margin:0;
+}
+
+/*background colors*/
+
+.bg-light-green{
+	background-color: #48F55B;
+}
+
+.bg-lighter-green{
+	background-color: #90FF6F;
+	height: 100%;
+}
+
+.bg-white{
+	background-color: #000000;
+}
+
+/*container*/
+
+.container-75{
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+/*div formatting*/
+
+.rounded-corners{
+	border-radius: 10px;
+}
+.result-box{
+	height: 400px;
+	width:  75%;
+}
+
+/*artist information*/
+
+.album-cover{
+	height: 150px;
+	max-width: 150px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+/*search information*/
+.hidden-search{
+	display: none;
+}
+
+
+/*29CEF5 teal --- 4E0AFF blue --- E80D4A pink --- FDFFF5 cream ---  71FF52  light green --- 90FF6F lighter Green*/

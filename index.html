@@ -2,15 +2,85 @@
 <html>
 <head>
 	<title>iTunes Search</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="site.css">
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="scripts/search.js"></script>
+	<script src="scripts/search.js"></script>
+
 </head>
-<body>
+<body class="bg-lighter-green">
+<div class="hidden-search">
+	<p id="searchValue"></p>
+	<p id="typeofSearch"></p>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="mx-auto">
+			<h1>iTunes Search</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 px-3 py-3">
+			 <input type="text" class="form-control " placeholder="Search By Name or Artist" id="searchBar">
+		</div>
+		<div class="col-md-6 px-3 py-3">
+			  <select class="form-control" id="searchType" >
+			    <option>Select Search Type</option>
+			    <option>Songs</option>
+			    <option>Videos</option>
+			    <option>Albums</option>
+			    <option>Artist/All</option>
+			  </select>
+		</div>
+		<div class="p-3 w-100">
+			  <button type="button" class="btn btn-primary" id="searchSubmit">Submit</button>
+		</div>
+	</div>
+	</div>
+<div class="py-5">
+	<div class="row mx-auto" id="searchResults">
 
 
+
+<!-- 		<div class="col-md-4 d-inline-block py-2">
+			<div class="col-11 mx-auto bg-white rounded-corners result-box">
+				<div class="row">
+					<div class="co-6 mx-auto" id="albumCover">
+						
+					</div>
+				</div>
+				<div class="row mx-auto">
+					<div class="no-margin" id="artistInfo">
+						
+					</div>
+				</div>
+			</div>
+
+		</div>	
+		<div class="col-md-4 d-inline-block py-2">
+			<div class="col-11 mx-auto bg-white rounded-corners result-box">
+
+			</div>
+
+		</div>
+		<div class="col-md-4 d-inline-block py-2">
+			<div class="col-11 mx-auto bg-white rounded-corners result-box">
+
+			</div>
+
+		</div> -->
+
+	</div>
+
+
+
+</div>
 
 
 
