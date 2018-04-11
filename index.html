@@ -14,10 +14,11 @@
 	<script src="scripts/search.js"></script>
 
 </head>
-<body class="bg-lighter-green">
+<body class="bg-teal">
 <div class="hidden-search">
 	<p id="searchValue"></p>
 	<p id="typeofSearch"></p>
+	<p id="paginationNumber">0</p>
 </div>
 <div class="container">
 	<div class="row">
@@ -46,43 +47,22 @@
 <div class="py-5">
 	<div class="row mx-auto" id="searchResults">
 
-
-
-<!-- 		<div class="col-md-4 d-inline-block py-2">
-			<div class="col-11 mx-auto bg-white rounded-corners result-box">
-				<div class="row">
-					<div class="co-6 mx-auto" id="albumCover">
-						
-					</div>
-				</div>
-				<div class="row mx-auto">
-					<div class="no-margin" id="artistInfo">
-						
-					</div>
-				</div>
-			</div>
-
-		</div>	
-		<div class="col-md-4 d-inline-block py-2">
-			<div class="col-11 mx-auto bg-white rounded-corners result-box">
-
-			</div>
-
-		</div>
-		<div class="col-md-4 d-inline-block py-2">
-			<div class="col-11 mx-auto bg-white rounded-corners result-box">
-
-			</div>
-
-		</div> -->
-
 	</div>
-
-
-
 </div>
-
-
-
+<div class="col" style="display: none" id="pagination">
+	<div class="row" >
+		<nav class="mx-auto" aria-label="Page navigation example">
+		  <ul class="pagination">
+		    <li class="page-item" id="Previous"><a class="page-link">Previous</a></li>
+		    <li class="page-item" id="firstPage"><a class="page-link">1</a></li>
+		    <li class="page-item" id="secondPage"><a class="page-link">2</a></li>
+		    <li class="page-item" id="thirdPage"><a class="page-link">3</a></li>
+		    <li class="page-item" id="fourthPage"><a class="page-link">4</a></li>
+		    <li class="page-item" id="fifthPage"><a class="page-link">5</a></li>
+		    <li class="page-item" id="Next"><a class="page-link">Next</a></li>
+		  </ul>
+		</nav>
+	</div>
+</div>
 </body>
 </html>

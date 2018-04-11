@@ -16,8 +16,8 @@ div.no-margin p{
 	background-color: #48F55B;
 }
 
-.bg-lighter-green{
-	background-color: #90FF6F;
+.bg-teal{
+	background-color: #29CEF5;
 	height: 100%;
 }
 
@@ -56,5 +56,12 @@ div.no-margin p{
 	display: none;
 }
 
+/* pagination styling*/
+.hidden-pagination{
+	display: none;
+}
 
+.visible-pagination{
+	display: block;
+}
 /*29CEF5 teal --- 4E0AFF blue --- E80D4A pink --- FDFFF5 cream ---  71FF52  light green --- 90FF6F lighter Green*/
